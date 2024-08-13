@@ -251,6 +251,7 @@ header h1 {
   background-color: #ffffff;
   color: white;
   border-radius: 7px;
+  display: flex;
 }
 
 .blogs-item img {
