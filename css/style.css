@@ -427,6 +427,9 @@ footer {
     flex-direction: column;
     align-items: center;
   }
+  .blogs-item {
+    width: 200px;
+  }
   .blogs-item img {
     width: 100%;
   }
