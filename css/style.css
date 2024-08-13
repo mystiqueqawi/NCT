@@ -8,42 +8,53 @@ body {
   margin: 0;
   padding: 0;
 }
-
+.logo {
+  margin-right: 10px;
+  width: 30px; /* Adjust the width as needed */
+  height: 30px; /* Maintain the aspect ratio */
+}
 header {
   background-color: #2a8037;
-  padding-bottom: 15px;
-  padding-top: 0px;
+  padding-bottom: 7px;
+  padding-top: 7px;
   position: fixed;
   width: 100%;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
 }
 header h1 {
   display: flex;
   justify-content: center;
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
   color: white;
+  font-size: 25px;
+  margin: 0;
 }
 .menu {
   list-style: none;
   display: flex;
   justify-content: center;
+  align-items: center;
   margin: 0;
   padding: 0;
 }
 
 .menu li {
   margin: 0 20px;
-  font-size: 17px;
+  align-items: center;
+  display: flex;
 }
 
 .menu a {
   color: #fff;
+  font-size: 13px;
   text-decoration: none;
 }
-
+.cover-photo {
+  padding-top: 51px;
+}
 .cover-photo img {
   width: 100%;
-  padding-top: 123px;
   height: auto;
   display: block;
 }
@@ -51,9 +62,11 @@ header h1 {
 .products {
   padding: 20px;
   text-align: center;
+  background-color: #2a8037;
 }
 .products h1 {
-  font-size: 50px;
+  font-size: 35px;
+  color: white;
 }
 .product-grid {
   display: flex;
@@ -62,37 +75,159 @@ header h1 {
 }
 
 .product-item {
-  margin: 20px;
+  margin: 35px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+  padding: 8px;
   text-align: center;
-  background-color: #2a8037;
+  background-color: #ffffff;
   color: white;
+  border-radius: 7px;
 }
 
 .product-item img {
-  width: 200px;
+  width: 190px;
   height: auto;
-  border-radius: 7%;
-  padding: 10px;
+  border-radius: 7px;
 }
 
 .product-item h3 {
-  font-size: 20px;
-  margin: 10px 0;
+  margin: 0;
+  font-size: 15px;
   font-weight: 100;
+  color: #2a8037;
 }
 .product-item h2 {
-  font-size: 18px;
-  margin: 10px 0;
-  font-weight: 100;
+  font-size: 20px;
+  margin: 6px 0;
+  font-weight: bold;
+  color: #ea3696;
+}
+.product-item .p2 {
+  margin: 0;
+  font-size: 9px;
+  color: #5a5e5a;
+  font-family: "Inter", sans-serif;
 }
 .product-item p {
-  font-size: 22px;
-  color: #ffffff;
-  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 18px;
+  color: #2a8037;
+}
+.buy-now-btn {
+  background-color: #2a8037;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  width: 100%;
+  border: 2px solid #2a8037;
+  padding: 7px 0px;
+  border-radius: 7px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 5px;
+}
+.buy-now-btn2 {
+  background-color: #8f00ff;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  width: 100%;
+  border: 2px solid #8f00ff;
+  padding: 7px 0px;
+  border-radius: 7px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.buy-now-btn:hover {
+  background-color: #ffffff;
+  color: #2a8037;
+  border: 2px solid #2a8037;
+}
+.buy-now-btn2:hover {
+  background-color: #ffffff;
+  color: #8f00ff;
+  border: 2px solid #8f00ff;
+}
+.reviews {
+  padding: 20px;
+  text-align: center;
+  background-color: #2a8037;
+}
+.reviews h1 {
+  font-size: 35px;
+  color: white;
 }
 
+.review-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.review-item {
+  font-family: "Poppins", sans-serif;
+  margin: 20px;
+  padding: 8px;
+  width: 200px;
+  text-align: center;
+  background-color: #ffffff;
+  color: white;
+  border-radius: 7px;
+  display: flex;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+  flex-direction: column;
+}
+.profile {
+  display: flex;
+}
+.profile-picture {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 15px;
+  object-fit: cover;
+}
+
+.user-name {
+  font-size: 16px;
+  color: #2a8037;
+  font-weight: bold;
+  margin: 0 0 5px;
+}
+
+.user-review {
+  font-size: 12px;
+  color: #000000;
+  margin: 0;
+  padding: 7px;
+}
+.see-more-reviews {
+  margin-top: 20px;
+  background-color: #ffffff;
+  color: #2a8037;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  width: 20%;
+  border: 2px solid rgb(255, 255, 255);
+  padding: 7px 0px;
+  border-radius: 7px;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease;
+}
+.see-more-reviews:hover {
+  background-color: #2a8037;
+  color: #ffffff;
+
+  border: 2px solid #ffffff;
+}
 footer {
-  background-color: #333;
+  font-family: "Poppins", sans-serif;
+  background-color: #2a8037;
   color: #fff;
   text-align: center;
   padding: 10px 0;
