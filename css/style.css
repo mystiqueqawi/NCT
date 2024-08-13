@@ -418,4 +418,8 @@ footer {
   .product-item img {
     width: 100%;
   }
+  .review-grid {
+    flex-direction: column;
+    align-items: center;
+  }
 }
