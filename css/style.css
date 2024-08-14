@@ -432,11 +432,11 @@ footer {
     margin: 10px;
   }
   .menu img {
-    width: 30px;
-    height: 30px;
+    width: 26px;
+    height: 26px;
   }
   .menu h1 {
-    font-size: 20px;
+    font-size: 17px;
   }
   .menu .hideOnMobile {
     display: none;
