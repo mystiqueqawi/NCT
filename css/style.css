@@ -428,6 +428,9 @@ footer {
 
 /* Mobile Optimization */
 @media (max-width: 768px) {
+  .menu {
+    margin: 10px;
+  }
   .menu img {
     width: 30px;
     height: 30px;
@@ -440,6 +443,9 @@ footer {
   }
   .menu-button {
     display: block;
+  }
+  .cover-photo {
+    padding-top: 64px;
   }
   .product-grid {
     flex-direction: column;
