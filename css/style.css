@@ -65,9 +65,10 @@ header h1 {
   align-items: center;
   display: flex;
 }
+
 .menu-button {
   display: none;
- 
+  margin-left: 40px;
 }
 .menu a {
   color: #fff;
@@ -395,12 +396,19 @@ label {
   margin-bottom: 8px;
 }
 
-input,
-textarea {
+input {
   width: 100%;
   padding: 8px;
   margin-bottom: 12px;
-  border: 1px solid #ddd;
+  border: 1px solid #2a8037;
+  border-radius: 4px;
+}
+textarea {
+  height: 80px;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #2a8037;
   border-radius: 4px;
 }
 
@@ -426,7 +434,32 @@ footer {
   bottom: 0;
   width: 100%;
 }
+.refund {
+  padding-top: 90px;
+  padding-bottom: 70px;
+  padding-left: 16rem;
+  padding-right: 16rem;
+  text-align: center;
+  background-color: #2a8037;
+}
+.refund h1 {
+  font-size: 50px;
+  color: white;
+}
 
+.refund p {
+  color: white;
+
+  text-align: left;
+}
+.refund h3 {
+  text-align: left;
+  color: white;
+}
+.refund p b {
+  color: #8f00ff;
+  background-color: white;
+}
 /* Mobile Optimization */
 @media (max-width: 768px) {
   .menu {
@@ -444,7 +477,7 @@ footer {
   }
   .menu-button {
     display: block;
-    margin-left: 30px;
+    margin-left: 20px;
   }
   .cover-photo {
     padding-top: 64px;
@@ -468,6 +501,10 @@ footer {
 
   .blogs-item img {
     width: 100%;
+  }
+  .refund {
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
 }
 @media (max-width: 400px) {
