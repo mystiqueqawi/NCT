@@ -444,6 +444,7 @@ footer {
   }
   .menu-button {
     display: block;
+    margin-left: 20px;
   }
   .cover-photo {
     padding-top: 64px;
