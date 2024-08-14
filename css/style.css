@@ -67,6 +67,7 @@ header h1 {
 }
 .menu-button {
   display: none;
+  margin-left: 40px;
 }
 .menu a {
   color: #fff;
@@ -194,7 +195,7 @@ header h1 {
   font-family: "Poppins", sans-serif;
   margin: 20px;
   padding: 8px;
-  width: 200px;
+  width: 190px;
   text-align: center;
   background-color: #ffffff;
   color: white;
